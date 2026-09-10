@@ -1,0 +1,45 @@
+/*Seletor Universal*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Seletores de elementos */
+body{
+    background-color: pink;
+    color: black;
+}
+
+h1{
+    color: palevioletred;
+}
+
+
+/* Seletore de ID */
+#seletor-id{
+    color: rgb(10, 94, 94);
+}
+
+/* Seletores de Classe*/
+
+.seletor-classe{
+    color: beige;
+}
+/*
+input[type=text]{
+    padding: 20px;
+}
+
+p[title=meuparagrafo]{
+    color:peru;
+}
+*/
+
+div p{
+    
+    color: rgb(17, 0, 255);
+}
+h1 ~ p {
+    color: aquamarine;
+}

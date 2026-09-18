@@ -1,0 +1,18 @@
+:root{
+    --bgcolor:pink;
+    --cor: white;
+}
+
+*{
+    background-color: var(--bgcolor);
+    color: var(--cor);
+}
+
+
+
+div{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: var(--cor);
+}

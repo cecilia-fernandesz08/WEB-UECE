@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: papayawhip;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
+}
+
+.item{
+    display: flex;
+    height: 200px;
+    background-color: burlywood;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#i1{
+    background-color: paleturquoise;
+    flex-shrink: 1;
+    flex-basis: 200px;
+    order: -1;
+}
+
+#i2{
+    background-color: plum;
+}
+
+#i3{
+    background-color: palegoldenrod;
+}
+
+@media(max-width:700px){
+    .container{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: bisque;
+}
+
+.pai{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    height: 100vh;
+    gap: 5px;
+}
+
+.itens{
+    background-color: palegoldenrod;
+    border: 2px solid black;
+    min-height: 100px;
+    min-width: 100px;
+}
+
+.item1{
+    background-color: paleturquoise;
+    display: grid;
+    place-items: center;
+}
+
+.item2{
+    background-color: palegreen;
+}
+
+.item3{
+    background-color: plum;
+}

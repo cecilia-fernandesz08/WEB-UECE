@@ -4,6 +4,7 @@ document.querySelector("span").textContent=contador
 
 
 
+
 function somar(){
     contador +=1
     document.querySelector("span").textContent = contador

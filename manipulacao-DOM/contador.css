@@ -25,7 +25,7 @@ span{
 button{
     padding: 30px;
     border-radius: 25px;
-    background-color: grey 
+    background-color: gray 
     color(srgb red green blue) white;
     font-size: 3em;
 }
